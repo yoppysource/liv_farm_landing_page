@@ -2117,7 +2117,7 @@ header p {
 }
 
 header h2 + p {
-  font-size: 1.25em;
+  font-size: 100%;
   margin-top: -1em;
   line-height: 1.5em;
 }
@@ -3906,6 +3906,7 @@ body.landing #main {
   }
 }
 /* YOPPY */
+
 #responsive-contents {
   margin: 4rem 0rem 1rem;
   padding: 1rem;
@@ -3923,11 +3924,11 @@ body.landing #main {
   align-items: center;
 }
 #responsive-contents ul img {
-  width: 40%;
+  width: 30%;
   object-fit: cover;
 }
 #responsive-contents ul #play-store {
-  width: 48%;
+  width: 38%;
 }
 
 /* 

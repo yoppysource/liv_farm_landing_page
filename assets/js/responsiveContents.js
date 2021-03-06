@@ -3,7 +3,7 @@ const KEY_IOS = "ios";
 const KEY_ANDROID = "android";
 const KEY_PC = "pc";
 
-const PC_HTML = `<img src="images/qrcode.svg" alt="" height="40%" width="40%" />
+const PC_HTML = `<img src="images/qrcode.svg" alt="" height="30%" width="30%" />
 <ul>
  <img src="images/app-store-badge.svg" alt="" >
  <img id="play-store" src="images/google-play-badge.png" alt="" >
