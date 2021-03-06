@@ -3262,8 +3262,7 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
   background-color: #666;
-  background-image: url("images/overlay.png"),
-    url("../../images/livFarmBanner.png");
+  background-image: url("images/over.png"), url("../../images/mainBanner.png");
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
