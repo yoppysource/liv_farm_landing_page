@@ -23,6 +23,8 @@ function getDeviceInfo() {
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
       if (navigator.userAgent.indexOf("iPhone") != -1) {
         return KEY_IOS;
+      } else if (navigator.userAgent.indexOf("iPad") != -1) {
+        return KEY_PC;
       } else {
         return KEY_ANDROID;
       }
